@@ -1,11 +1,15 @@
 public class Pessoa {
+    int idade = 28;
 
-    public void andar(){
-        System.out.println("Estou andando...");
+    public void fazerAniversario(){
+        this.idade++;
     }
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         Pessoa gabriel = new Pessoa();
         
-        gabriel.andar();
+        System.out.println(gabriel.idade);
+        gabriel.fazerAniversario();
+        System.out.println(gabriel.idade);
     }
 }
