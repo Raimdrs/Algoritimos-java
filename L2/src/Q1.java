@@ -11,7 +11,7 @@ public class Q1{
         System.out.println("Digite a Segunda Nota");
         double nota2 = scanner.nextDouble();
 
-        System.out.println("Digite a Terceira nota");
+        System.out.println("Digite a Terceira Nota");
         double nota3 = scanner.nextDouble();
 
         double media = (nota1 + nota2 + nota3) / 3;
