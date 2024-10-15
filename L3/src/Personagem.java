@@ -51,7 +51,7 @@ public class Inimigo {
         // Lógica de patrulha
     }
 
-    public void tomardano(int dano) {
+    public void tomarDano(int dano) {
         // Lógica de receber dano
     }
 
